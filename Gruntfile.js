@@ -1,6 +1,18 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
+        uglify: {
+            options: {
+                mangle: {
+                    except: ['jQuery', 'Backbone']
+                }
+            },
+            my_target: {
+                files: {
+                    'js/bootstrap.min.js': ['bower_components/bootstrap-sass/assets/javascripts/bootstrap.js']
+                }
+            }
+        },
         jekyll: {
             dist: {
                 options: {
@@ -18,7 +30,8 @@ module.exports = function(grunt) {
         }
     });
 
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-jekyll');
-    grunt.registerTask('default', ['jekyll']);
+    grunt.registerTask('default', ['uglify','jekyll']);
 
 };
