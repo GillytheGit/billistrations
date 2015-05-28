@@ -1,6 +1,24 @@
+.header-navbar{
+  text-align: left;
+  padding: 20px 0 0;
+  float: right;
+  border: 0px;
+  a{
+    padding: 10px 20px;
+    @media (max-width: $screen-xs-max) {
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  @media (max-width: $screen-xs-max) {
+    width:100%;
+  }
+}
+
 .main-navigation{
   background: transparent;
-  border: 3px;
+  border: 0px;
   a{
     color: $white;
   }
