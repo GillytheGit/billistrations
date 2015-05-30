@@ -1,0 +1,9 @@
+@mixin break($name){
+  @if (index(map-keys($breakpoints), $name)) {
+    @media(min-width: map-get($breakpoints, $name)) {
+      @content;
+    }
+  }@else{
+      @warn"Warning: '#{$name}' is not a valid breakpoint name.";
+    }
+  }

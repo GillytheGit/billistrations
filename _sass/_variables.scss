@@ -1,0 +1,25 @@
+
+// COLORS
+
+$white:  #ffffff;
+
+
+// font familys
+
+$font-family-sans-serif:  'Abel', sans-serif;
+
+
+// Breakpointsa for terse css media breakpoints
+
+
+$mobilewidth: 768px;
+$tablewidth: 992px;
+$largewidth:1200px;
+$maxwidth:1440px;
+
+$breakpoints:(
+    sm: $mobilewidth,
+    md: $tablewidth,
+    lg: $largewidth,
+    max: $maxwidth,
+)

@@ -4,12 +4,12 @@
   float: right;
   border: 0px;
   a{
-    padding: 10px 20px;
-    @media (max-width: $screen-xs-max) {
+
+/*    @media (max-width: $screen-xs-max) {
       float: left;
       width: 100%;
       text-align: center;
-    }
+    }*/
   }
   @media (max-width: $screen-xs-max) {
     width:100%;
