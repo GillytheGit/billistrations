@@ -1,7 +1,4 @@
-.container__background--home{
-  background: url("../images/emailabra.jpg") no-repeat;
-  background-position: 50% 15%;
-  min-height: 1200px;
+.container__background{
   &:before{
     content:'';
     position: absolute;
@@ -11,3 +8,25 @@
     background:$black--80 ;
   }
 }
+
+.container__background--home{
+  background: url("../images/emailabra.jpg") no-repeat;
+  background-position: 50% 15%;
+}
+
+.container__background--about{
+  background: url("../images/background--face.jpg") no-repeat;
+  background-position: 50% 15%;
+}
+
+.container__background--bloggy{
+  background: url("../images/background--face.jpg") no-repeat;
+  background-position: 50% 15%;
+}
+
+.container__background--work{
+  background: url("../images/background--face.jpg") no-repeat;
+  background-position: 50% 15%;
+}
+
+

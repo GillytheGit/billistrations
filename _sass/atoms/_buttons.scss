@@ -1,0 +1,16 @@
+.btn{
+  background: $purp;
+  color: $white;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  width: 100%;
+  &:hover{
+    background: $purp-dark;
+    color: $white;
+  }
+  @include break(sm){
+    width: 270px;
+  }
+}

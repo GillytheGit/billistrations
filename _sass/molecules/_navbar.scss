@@ -10,7 +10,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  margin: 81px 0px 0px;
+  margin: 81px -16px 0px;
   @include break(sm){
     width: auto;
     padding: 19px 0px 0px;
@@ -23,15 +23,16 @@
     text-align: center;
     padding: 10px 20px;
     width: 100%;
-    &:hover{
-      text-decoration: none;
-      color: $grey;
-      background: $black;
-    }
     @include break(sm) {
       float: none;
       text-align: right;
       width: auto;
+      border-radius: 8px;
+    }
+    &:hover{
+      text-decoration: none;
+      color: $grey;
+      background: $black;
     }
   }
 }
