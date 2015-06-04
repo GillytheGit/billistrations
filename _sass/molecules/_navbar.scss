@@ -1,25 +1,45 @@
-.header-navbar{
+.header-logo{
+  float: left;
+}
+.header-navbar {
   text-align: left;
-  padding: 20px 0 0;
   float: right;
   border: 0px;
-  a{
-
-/*    @media (max-width: $screen-xs-max) {
-      float: left;
-      width: 100%;
-      text-align: center;
-    }*/
+  padding: 0px 0px 20px;
+  background: $black--80;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 81px 0px 0px;
+  @include break(sm){
+    width: auto;
+    padding: 19px 0px 0px;
+    position: relative;
+    margin: 0px;
+    background: transparent;
   }
-  @media (max-width: $screen-xs-max) {
-    width:100%;
+  a {
+    float: left;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    &:hover{
+      text-decoration: none;
+      color: $grey;
+      background: $black;
+    }
+    @include break(sm) {
+      float: none;
+      text-align: right;
+      width: auto;
+    }
   }
 }
-
-.main-navigation{
+.main-navigation {
   background: transparent;
   border: 0px;
-  a{
+  padding: 19px 0px 0px;
+  a {
     color: $white;
   }
 }

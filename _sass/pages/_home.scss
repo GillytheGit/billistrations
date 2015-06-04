@@ -1,5 +1,13 @@
 .container__background--home{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/emailabra.jpg") no-repeat;
+  background: url("../images/emailabra.jpg") no-repeat;
   background-position: 50% 15%;
   min-height: 1200px;
+  &:before{
+    content:'';
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top:0 ;
+    background:$black--80 ;
+  }
 }
