@@ -1,0 +1,31 @@
+.work-image{
+  background: $black--80;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  transition: height 1s ease-out;
+  &:before{
+    content:' ';
+    position: absolute;
+    background: $black--80;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transition: background 1s ease-out;
+  }
+  &:hover{
+    &:before{
+      background: transparent;
+    }
+  }
+  @include break(sm){
+    height: 530px;
+  }
+}
+
+
+.work-image--bards {
+  background-image: url("../images/work/bards.jpg");
+}
