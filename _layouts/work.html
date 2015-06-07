@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-
 <div class="container">
     <div class="row no-gutter">
-        <a href="bards.html"><div class="col-xs-12 col-md-4 work-image work-image--bards"></div></a>
-        <a href=""><div class="col-xs-12 col-md-4 work-image work-image-- "></div></a>
-        <a href=""><div class="col-xs-12 col-md-4 work-image work-image-- "></div></a>
-        <a href=""><div class="col-xs-12 col-md-4 work-image work-image-- "></div></a>
-        <a href=""><div class="col-xs-12 col-md-4 work-image work-image-- "></div></a>
-        <a href=""><div class="col-xs-12 col-md-4 work-image work-image-- "></div></a>
+        {% for page in site.pages %}
+        {% if page.type == "illustration" %}
+        	<a href="{{ page.url }}"><div class="col-xs-12 col-md-4 work-image" style="background-image: url(images/work/{{ page.ref }}.jpg)"></div></a>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
+
