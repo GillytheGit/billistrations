@@ -1,15 +1,25 @@
 ---
 layout: default
 ---
-<div class="post">
-
-    <header class="post-header">
-        <h1 class="post-title">{{ page.ref }}</h1>
-    </header>
-
-    <article class="post-content">
-        <img src="images/work/{{ page.ref }}.jpg" />
-        {{ content }}
-    </article>
-
+<div class="row">
+	<div class="col-xs-12 col-md-7">
+		<img class="illustration img-responsive" src="images/work/{{ page.ref }}.jpg" />
+		 <div class="row">
+		 	<div class="col-xs-12 col-md-6">Time Lapse Video</div>
+		 	<div class="col-xs-12 col-md-6">Podcast</div>
+		 </div>
+	</div>
+	<div class="col-xs-12 col-md-5">
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+	    <div class="addthis_native_toolbox share-container"></div>
+		<a href="{{site.url}}work.html">Back to the gallery</a>
+		<h1>
+			{{ page.header }}
+		</h1>
+		{{ content }}
+	</div>
 </div>
+
+
+	
+

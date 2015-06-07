@@ -1,19 +1,23 @@
 .container__background{
   background-position: 50% 0%;
   background-repeat: no-repeat;
-  background-image: url("../images/background--face.jpg");
   &:before{
     content:'';
     position: absolute;
     height: 100px;
     width: 100%;
     top:0 ;
-    background:$black--80 ;
+    background-image: url("../images/background--hair.jpg");
   }
 }
 
+/* Extra style used to align background image larger on the homepage */
 .container__background--home{
-  background-image: url("../images/emailabra.jpg");
+  background-image: url("../images/background--hair.jpg");
+    &:before{
+    background-image: none;
+    background-color: $black--80;
+  }
 }
 
 .container__background--about{
@@ -27,5 +31,3 @@
 .container__background--work{
   background-image: url("../images/background--face.jpg");
 }
-
-
