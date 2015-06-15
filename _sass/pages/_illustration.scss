@@ -1,0 +1,46 @@
+.illustration{
+	margin-bottom: 20px;
+}
+
+.illustration-text{
+	padding-top: 20px;
+	min-height: 371px;
+}
+
+.illustration-video{
+	margin-bottom: 20px;
+}
+
+.illustration-podcast{
+	margin-bottom: 20px;
+	overflow: hidden;
+	height: 140px;
+}
+
+.img-button-cover{
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+	z-index: 200;
+	width: 100%;
+	top: 0;
+	left: 0; 
+	&:before{
+		content: ' ';
+	}
+}
+
+.img-button-cover--video{
+	height: 404px;
+	@include break(md){
+		height: 300px;
+	}
+}
+.img-button-cover--podcast{
+	height: 168px;
+	@include break(md){
+		height: 147px;
+	}
+}
