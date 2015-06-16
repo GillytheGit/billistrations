@@ -3,8 +3,12 @@ html {
   min-height: 100%;
 }
 
-body {
-  /* This margin equals the heiht of the footer so that it can remain sticky */
+/* his margin equals the height of the footer so that it can remain sticky */
+
+body{
+  font-family:$font-family-sans-serif ;
+  font-size: 16px;
+  color: $black;
   margin-bottom: 200px;
 }
 

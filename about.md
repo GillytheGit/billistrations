@@ -1,10 +1,13 @@
 ---
-layout: default
+layout: page
 title: about
+header: "That's Mr Billy O Reilly"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I have done a few things... tried to do a few things to put it more accurately... sincerely, if not sometimes disingenuously attempted some other creative outlets. Basically on the late road to discover self actualization. Talking about yourself feels like not showering for a week and being very alone.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Who is me?... Seriously I'm having an identity crisis... If you have seen me please let me know because I think we need to talk.  In the mean time, enter your email below so I can send you things about the things I make.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Distracted by the gelatonous blob giff hovering over my default self? Welcome to earth jesus.
+
+If your sincerely interested in seeing what I look like, become a friend of mine on one of the social interents that are shoved in the footer.
