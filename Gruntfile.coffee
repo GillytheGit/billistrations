@@ -31,7 +31,8 @@ module.exports = (grunt) ->
             cwd: "bower_components/bootstrap/dist/js/"
             src: "bootstrap.min.js"
             dest: "vendor/js/"
-          }]
+          }
+        ]
 
     exec:
       jekyll:
@@ -49,6 +50,7 @@ module.exports = (grunt) ->
           "_sass/**/*"
           "css/**/*"
           "js/**/*"
+          "work/*"
           "_config.yml"
           "*.html"
           "*.md"

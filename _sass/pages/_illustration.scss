@@ -2,8 +2,13 @@
 	margin-bottom: 20px;
 }
 
+.illustration-ls{
+	padding-top: 20px;
+}
+
 .illustration-text{
 	padding-top: 20px;
+	padding-bottom: 20px;
 	min-height: 371px;
 }
 
@@ -32,10 +37,11 @@
 	}
 }
 
+
 .img-button-cover--video{
 	height: 404px;
 	@include break(md){
-		height: 300px;
+		height: 315px;
 	}
 }
 .img-button-cover--podcast{
@@ -43,4 +49,12 @@
 	@include break(md){
 		height: 147px;
 	}
+}
+
+
+.illustration-content--none{
+	background: #ffccff;
+	text-align: center;
+	padding:20px 0px;
+	color: #ec0000;
 }

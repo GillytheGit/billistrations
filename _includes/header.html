@@ -19,7 +19,8 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse header-navbar" id="bs-example-navbar-collapse-1">
-                        {% for page in site.pages %}
+                        {% assign sorted_pages = (site.pages | sort: 'order') %}
+                        {% for page in sorted_pages %}
                         {% if page.title %}
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                         {% endif %}

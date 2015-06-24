@@ -6,7 +6,13 @@ $('.playvideo').on('click', function(ev) {
 
 
 $('.playpodcast').on('click', function(ev) {
-	$('#playpodcast')[0].src += "&amp;color=ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false";
+	$('#playpodcast')[0].src += "&amp;auto_play=true";
 	ev.preventDefault();
 	$(this).css('display', 'none');
 })
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+// toggle the lightbox so that you can preview the image on a click attack
+

@@ -1,0 +1,23 @@
+.blog-post-listing{
+  padding: 20px 0px 0px;
+}
+.blog-post-listing--links{
+  margin: 0px;
+  padding: 0px;
+  li{
+    list-style-type: none;
+   a{
+    background: $blue;
+    text-decoration: underline;
+    color: $white;
+    padding: 10px;
+    display: block;
+    &:hover{
+        background: $blue-dark;
+      }
+    }
+  }
+}
+
+
+

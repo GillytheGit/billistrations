@@ -12,4 +12,5 @@ github_username:  GillytheGit
 
 # Build settings
 markdown: kramdown
+include: ["work"]
 exclude: [node_modules, bower_components, Gruntfile.coffee, package.json, bower.json ]

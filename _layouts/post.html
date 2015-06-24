@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-
-<div class="col-xs-12-fluid col-md-3">
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-<div class="col-xs-12 col-md-9">
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    </header>
-
-    <article class="post-content">
-        {{ content }}
-    </article>
+<div class="row">
+    <div class="col-xs-12-fluid col-md-3 blog-posts">
+        <ul class="blog-post-listing--links">
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-xs-12 col-md-9">
+        <header>
+            <h1>{{ page.title }}</h1>
+            <p >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+        <article class="post-content">
+            {{ content }}
+        </article>
+    </div>
 </div>
