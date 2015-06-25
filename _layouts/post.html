@@ -2,22 +2,25 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-xs-12-fluid col-md-3 blog-posts">
+
+    <div class="col-xs-12 col-md-3 col-md-push-9">
         <ul class="blog-post-listing--links">
             {% for post in site.posts %}
             <li>
+                {{ post.date | date: "%b %-d, %Y" }}
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
             {% endfor %}
         </ul>
     </div>
-    <div class="col-xs-12 col-md-9">
+    <div class="col-xs-12 col-md-9 col-md-pull-3">
         <header>
             <h1>{{ page.title }}</h1>
             <p >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
-        <article class="post-content">
+        <article class="blog-posts">
             {{ content }}
         </article>
     </div>
+
 </div>
