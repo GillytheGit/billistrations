@@ -20,8 +20,13 @@
   }
 }
 
-.container__background--about{
-  background-image: url("../images/background--face.jpg");
+.container__background--emailabra{
+  background-image: url("../images/emailabra.jpg");
+  background-position: 50% 25%;
+    &:before{
+    background-image: none;
+    background-color: $black--80;
+  }
 }
 
 .container__background--bloggy{
