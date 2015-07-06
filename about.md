@@ -11,4 +11,4 @@ Who is me?... Seriously I'm having an identity crisis... If you have seen me ple
 
 Distracted by the gelatonous blob giff hovering over my default self? Welcome to earth jesus.
 
-If you're sincerely interested in seeing what I look like, become a friend of mine on one of the social interents that are shoved in the not above header.
+If you're sincerely interested in seeing what I look like, become a friend of mine on one of the social interents that are shoved in the not above header. Farts.
