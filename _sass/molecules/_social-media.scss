@@ -1,10 +1,14 @@
 .social-media__link {
   width: 25%;
-  height: 120px;
+  height: 110px;
   float: left;
   display: block;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 70px;
+  @include break(sm){
+
+  }
   &--facebook{
     background-image:url('../images/home/facebook.png');
   }

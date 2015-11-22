@@ -15,9 +15,12 @@
 .btn--home{
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 800;
-  font-size: 3em;
+  font-size: 1.5em;
   background-color: white;
   color: $blue-dark;
   margin-top: 25px;
   border-radius: 0px;
+  @include break(sm){
+    font-size: 3em;
+  }
 }
