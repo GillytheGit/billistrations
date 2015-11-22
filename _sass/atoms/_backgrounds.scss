@@ -14,6 +14,12 @@
 /* Extra style used to align background image larger on the homepage */
 .container__background--home{
   background-image: url("../images/background--hair-purp.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top:0 ;
+  bottom: 0;
+  position: absolute;
     &:before{
     background-image: none;
     background-color: $black--80;

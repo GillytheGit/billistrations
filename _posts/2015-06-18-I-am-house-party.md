@@ -2,6 +2,7 @@
 layout: post
 title:  "I am house party"
 categories: storys
+blog-header: A short story about the glory of house partys
 ---
 
 I wake up. I wake up fully before my eyes open. “It’s fucking dar…”  I open my eyes. Everything around me seems familiar, I can’t be sure. I open and close my mouth a few times making the sound of masking tape being peeled off a wall in segments. I realise that I have woken up drunk.

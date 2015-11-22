@@ -5,12 +5,12 @@
 module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-bower-task"
   grunt.loadNpmTasks "grunt-contrib-connect"
+  grunt.loadNpmTasks "grunt-ftp-deploy"
   grunt.loadNpmTasks "grunt-contrib-copy"
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-exec"
 
   grunt.initConfig
-
     copy:
       jquery:
         files: [{
@@ -33,11 +33,20 @@ module.exports = (grunt) ->
             dest: "vendor/js/"
           }
         ]
+    "ftp-deploy": 
+      build:
+        auth:
+          host: 'ftp.billyoreilly.com.au'
+          port: 21
+          authKey: 'key1'
+        src: '_site'
+        dest: 'public_html/billistrations.com/'
+        exclusions: [
 
+        ]
     exec:
       jekyll:
         cmd: "jekyll build --trace"
-
     watch:
       options:
         livereload: true
@@ -70,6 +79,11 @@ module.exports = (grunt) ->
   grunt.registerTask "build", [
     "copy"
     "exec:jekyll"
+  ]
+
+
+  grunt.registerTask "deploy", [
+    "ftp-deploy:build"
   ]
 
   grunt.registerTask "serve", [

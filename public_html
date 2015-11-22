@@ -1,6 +1,6 @@
 ---
-layout: home
-background: home
+layout: default
+background: emailabra
 ---
 
 <section>

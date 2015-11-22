@@ -3,6 +3,8 @@ layout: page
 title: about
 order: 2
 header: "That's Mr Billy O Reilly"
+desc: I am a person made out of molecules which are all binded together to give you a sense of a thing standing in front of you.
+keywords: men, badgers, eggs, more badgers, men and badgers, badgers about men, men about the house, etc, and, illustration nation contemplation station
 ---
 
 I have done a few things... tried to do a few things to put it more accurately... sincerely, if not sometimes disingenuously attempted some other creative outlets. Basically on the late road to discover self actualization. Talking about yourself feels like not showering for a week and being very alone.

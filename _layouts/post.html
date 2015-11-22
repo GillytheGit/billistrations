@@ -14,10 +14,8 @@ layout: default
         </ul>
     </div>
     <div class="col-xs-12 col-md-9 col-md-pull-3">
-        <header>
-            <h1>{{ page.title }}</h1>
-            <p >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
+        <h1>{{ page.blog-header }}</h1>
+        <p >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         <article class="blog-posts">
             {{ content }}
         </article>
