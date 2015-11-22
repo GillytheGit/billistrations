@@ -13,7 +13,8 @@
 
 /* Extra style used to align background image larger on the homepage */
 .container__background--home{
-  background-image: url("../images/background--hair-purp.jpg");
+/*   background-image: url("../images/background--hair-purp.jpg"); */
+  background-color: $blue-dark;
   background-size: cover;
   height: 100%;
   width: 100%;
