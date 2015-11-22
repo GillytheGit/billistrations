@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: 
 order: 2
 header: "That's Mr Billy O Reilly"
 desc: I am a person made out of molecules which are all binded together to give you a sense of a thing standing in front of you.

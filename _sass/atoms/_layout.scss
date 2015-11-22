@@ -17,10 +17,19 @@ header{
   margin-bottom: 15px;
 }
 
-.header-logo {
-  background: url("../images/logo--white.svg") no-repeat top;
+.header__logo {
+  background: url("../images/logo--white.svg") no-repeat top center;
   width: 200px;
   height: 58px;
+  float: left;
+}
+
+.header__logo--home{
+  width: 80%;
+  height: 115px;
+  margin: 20px auto;
+  display: block;
+  float: none;
 }
 
 section{
@@ -32,6 +41,5 @@ footer{
   background: url("../images/paper-bits.png") no-repeat left  $white;
   background-position: -428px -38px;
   bottom: 0;
-  position: absolute;
   width: 100%;
 }

@@ -8,42 +8,25 @@
 	<div class="container-fuild container__background container__background--{{ page.background }}">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12">
-
-					<header>
-						<nav class="navbar navbar-default main-navigation"/>
-
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-head">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="header-logo" href="{{ site.url }}"></a>
-						</div>
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse header-navbar" id="bs-example-navbar-collapse-1">
-							{% assign sorted_pages = (site.pages | sort: 'order') %}
-							{% for page in sorted_pages %}
-							{% if page.title %}
-							<a href="{{ page.url }}">{{ page.title }}</a>
-							{% endif %}
-							{% endfor %}
-						</div><!-- /.navbar-collapse -->
-
-					</nav>
-				</header>
-
-				{{ content }}
-
-
+				<div class="col-xs-12 col-md-6 col-md-offset-3">
+					<a class="header__logo header__logo--home" href="{{ site.url }}"></a>
+					<div class="home-content">
+						<p>I am Billy</p>
+						<p>I do Illustrations</p>
+					</div>
+					<div class="row">
+						<div class="col-xs-6"><a href="blog.html" class="btn btn--home">blog</a></div>
+						<div class="col-xs-6"><a href="art.html" class="btn btn--home">art</a></div>
+						<div class="col-xs-12"><a href="say-hello.html" class="btn btn--home">say hello</a></div>
+					</div>
+					<div class="home-content">
+						<p>Sign up to my newsletter</p>
+						<p>FOr no reason</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 <script src="{{site.url}}vendor/js/jquery.min.js"></script>
 <script src="{{site.url}}vendor/js/bootstrap.min.js"></script>
