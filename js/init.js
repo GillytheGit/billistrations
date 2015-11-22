@@ -1,9 +1,12 @@
+$().ready(function() {
+                $('#home-video').tubular({videoId: 'PpjoFjDba70'}); // where idOfYourVideo is the YouTube ID.
+        });
+
 $('.playvideo').on('click', function(ev) {
 	$('#playvideo')[0].src += "?rel=0&autoplay=1";
 	ev.preventDefault();
 	$(this).css('display', 'none');
 })
-
 
 $('.playpodcast').on('click', function(ev) {
 	$('#playpodcast')[0].src += "&amp;auto_play=true";
