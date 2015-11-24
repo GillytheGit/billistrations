@@ -1,5 +1,5 @@
 $().ready(function() {
-                $('#home-video').tubular({videoId: 'PpjoFjDba70'}); // where idOfYourVideo is the YouTube ID.
+                $('#home-video').tubular({videoId: 'cVG_TzU-yDc'}); // where idOfYourVideo is the YouTube ID.
         });
 
 $('.playvideo').on('click', function(ev) {

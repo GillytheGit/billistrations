@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="container">
 	<div class="col-xs-12-fluid col-md-7">
 		<div class="row">
 			<div class="col-xs-12">
@@ -13,7 +13,7 @@ layout: default
 		<div class="row">
 			<!-- Go to www.addthis.com/dashboard to customize your tools -->
 			<div class="col-xs-12 col-md-5">
-				<a class="btn btn-default" href="{{site.url}}art.html">BACK FOR MORE!!
+				<a class="btn btn-default" href="{{site.url}}art.html">BACK
 				</a>
 			</div>
 			<div class="col-xs-12 col-md-7">
@@ -30,10 +30,10 @@ layout: default
 				{% if page.timelapse contains "youtube" %} 
 				<a href="#">
 					<div class="embed-responsive embed-responsive-16by9">
-					<iframe id="playvideo" src="{{ page.timelapse }}" frameborder="0" allowfullscreen autoplay></iframe>
-					<div class="img-button-cover img-button-cover--video playvideo" style="background-image:url(../images/illustration-page/video.png)">
+						<iframe id="playvideo" src="{{ page.timelapse }}" frameborder="0" allowfullscreen autoplay></iframe>
+						<div class="img-button-cover img-button-cover--video playvideo" style="background-image:url(../images/illustration-page/video.png)">
+						</div>
 					</div>
-				</div>
 				</a>
 				{% else %}
 				<!-- <div class="illustration-content--none">No Timelapse for this illustration yet!! Yet?... sorry.... What?</div> -->
@@ -43,11 +43,11 @@ layout: default
 				{% if page.podcast contains "soundcloud" %}
 				<a href="#">
 					<div class="embed-responsive embed-responsive-16by9">
-					<!-- images/illustration-page/video.png -->
-					<iframe id="playpodcast"  width="100%" scrolling="no" frameborder="no" src="{{ page.podcast }}&amp;color=ff5500&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>
-					<div class="img-button-cover img-button-cover--podcast playpodcast" style="background-image:url(../images/illustration-page/podcast.png)">
+						<!-- images/illustration-page/video.png -->
+						<iframe id="playpodcast"  width="100%" scrolling="no" frameborder="no" src="{{ page.podcast }}&amp;color=ff5500&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>
+						<div class="img-button-cover img-button-cover--podcast playpodcast" style="background-image:url(../images/illustration-page/podcast.png)">
+						</div>
 					</div>
-				</div>
 				</a>
 				{% else %}
 				<!-- <div class="illustration-content--none">No Podcast fot this illustration, my god man what are you doing with your time! Making this god damn website with if statments no less, if less statemtent then.</div> -->
@@ -55,8 +55,4 @@ layout: default
 			</div>
 		</div>
 	</div>
-
-
-
-
-
+</div>

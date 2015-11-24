@@ -17,9 +17,14 @@
   font-weight: 800;
   font-size: 1.5em;
   background-color: white;
-  color: $blue-dark;
+  color: $blue-home;
   margin-top: 25px;
   border-radius: 0px;
+  padding: 10px;
+  &:hover{
+    background: $blue-home;
+    color: $white;
+  }
   @include break(sm){
     font-size: 3em;
   }

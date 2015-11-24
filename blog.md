@@ -7,7 +7,7 @@ desc: A blog about illustration and also life and breathing and eating and being
 keywords: Blog, Illustration, musings, amusing, rant, art, work, dogs
 ---
 
-Welcome to my blog. Here is a picture of me blogging. All my posts are listed to the right. This place isn't for you, it's for me so please go instagram youself. Take that as you will. Take a good photo of yourself. A real good photo. I don't have instagram. Maybe I should? What do you think?
+Welcome to my blog. Here is a picture of me blogging.  Posts are listed below for your reading. This place isn't for you, it's for me so please go instagram youself. Take that as you will. Take a good photo of yourself. A real good photo. I don't have instagram. Maybe I should? What do you think? Oh wait I do have instagram, i don't know what I'm using it for yet. 
 
 ![The image of a controller]({{ site.url }}/images/blog/bloggity.jpg)
 
