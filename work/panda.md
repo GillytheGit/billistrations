@@ -11,4 +11,4 @@ Hello and welcome to the unfinished. The land in which nothing gets described pe
 
 Anhedonia would suffice, in that it would stop the pursuit, the persistent and overpowering pursuit. The solution is just to ask, simply keep asking until it stops, and when it has stopped then it won’t be going anymore.
  
-Panda is shocked and questioning the rate at which it is traveling whilst holding its orbital. The hope is, two dead memories make meaning. Meaning what they were meant to mean. The panda can only travel to hope by paying for the journey with despair. It’s like a bad analogy, it describes what it isn’t.
+<!-- Panda is shocked and questioning the rate at which it is traveling whilst holding its orbital. The hope is, two dead memories make meaning. Meaning what they were meant to mean. The panda can only travel to hope by paying for the journey with despair. It’s like a bad analogy, it describes what it isn’t. -->

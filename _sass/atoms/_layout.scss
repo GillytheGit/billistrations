@@ -23,17 +23,6 @@ header{
   float: left;
 }
 
-.header__logo--home{
-  width: 100%;
-  height: 100px;
-  margin: 20px auto 0px;
-  display: block;
-  float: none;
-  @include break(sm) {
-     height: 190px;
-  }
-}
-
 section{
   min-height:750px;
 }

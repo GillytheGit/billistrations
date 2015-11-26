@@ -7,25 +7,30 @@
   padding: 20px 0px;
   width: 100%;
   &:hover{
-    background: $purp-dark;
+    background-color: $purp-dark;
     color: $white;
   }
 }
-
 .btn--home{
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 800;
-  font-size: 1.5em;
-  background-color: white;
-  color: $blue-home;
-  margin-top: 25px;
+  display: inline-block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
   border-radius: 0px;
-  padding: 10px;
-  &:hover{
-    background: $blue-home;
-    color: $white;
+    &:hover{
+    background-color: transparent;
+    opacity: 0.6;
   }
-  @include break(sm){
-    font-size: 3em;
-  }
+}
+.home-btn--art{
+  background-image: url("../images/home/art.svg");
+}
+.home-btn--blog{
+  background-image: url("../images/home/blog.svg");
+}
+.home-btn--say-hello{
+  background-image: url("../images/home/say-hello.svg");
+  margin-top: 20px;
 }
