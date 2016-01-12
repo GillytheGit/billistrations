@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "More jigsaws for all of you guys"
+title:  "More jigsaws for all"
 blog-header: Puzzled much?
 categories: posts
 ---

@@ -4,7 +4,7 @@ type: "illustration"
 ref: tonymaggot2
 header: Tony Maggot
 timelapse : https://www.youtube.com/embed/X5fHKhxFimY
-order : 7
+order : 10
 ---
 
 Tony Maggot wisely gets all his moral guidance from a medieval fairy tale. Fighting off any and all opportunities for a constructive dialectic, telling reason to go do something rude to itself & being an all round generally dislikable person, left, right and (that's right, you guessed it) centre. Let us eat oval shaped confectionery so that it may appease the mighty Zombie Jebus, or something of some such. I haven't really looked into it... Than how can you criticize it you say? Nazareth Times Headline boldly states "IMAGINARY OMNIPOTENT CLOUD MAN MAKES TEENAGER PREGNANT, HUSBAND SAYS â€œNO WORRIES"

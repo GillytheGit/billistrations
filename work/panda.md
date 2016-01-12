@@ -1,10 +1,10 @@
 ---
 layout: illustration
 type: "illustration"
-order : 4
 ref: panda
 header: Panda Closet Memories
 podcast : https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/210888081
+order : 7
 ---
 
 Hello and welcome to the unfinished. The land in which nothing gets described perpetually to replace the possible existence of meaning. The eyes attempt to be autodidactic, but it means that one might suffer from anhedonia, when wanting to be an autodidact fails, and the hope of eclecticism wains, one needs an avuncular panda with skeletal memories to parse what’s relevant to the needs of an idea of homunculus drainage, tilling the forever fertile farmlands of the divide.

@@ -1,10 +1,11 @@
 .work-image{
   background: $black--80;
-  height: 100px;
+  height: 140px;
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
+  background-size: 160% auto;
   transition: height 1s ease-out;
   &:before{
     content:' ';
@@ -21,7 +22,7 @@
     }
   }
   @include break(sm){
-    height: 530px;
+    height: 300px;
   }
 }
 

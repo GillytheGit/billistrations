@@ -1,34 +1,46 @@
+.blog{
+  a{
+    color: $black;
+    &:hover{
+      text-decoration: none;
+      color: $purp;
+    }
+  }
+}
+
+
 .blog-post-listing{
   padding: 10px 0px 0px;
 
 }
 .blog-post-listing--links{
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px 50px;
   li{
     list-style-type: none;
     color: $blue;
-    font-size: 12px;
+    font-size: 10px;
     a{
       text-decoration: none;
-      background-image: url("../images/blog-arrow.svg");
       background-position: 7px 17px;
       background-repeat: no-repeat;
       color: $black;
-      padding: 8px 0px 8px 20px;
-      border-radius: 20px;
-      display: block;
-      font-size: 15px;
+      font-size: 14px;
       &:hover{
         background-color: $purp;
-        background-image: url("../images/blog-arrow-white.svg");
+        color: $white;
+      }
+      &:selected{
+        background-color: $purp;
         color: $white;
       }
     }
   }
 }
 .blog-posts{
-  padding: 0px 45px 0px 0px;
+  padding: 0px 45px 30px 0px;
+  border-bottom: 1px $black solid;
+  margin-bottom: 30px;
   img{
     width: 100%;
     margin: 15px 0px;

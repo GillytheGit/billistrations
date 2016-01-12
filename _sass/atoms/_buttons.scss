@@ -17,20 +17,36 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 150px;
+  height: 50px;
   border-radius: 0px;
-    &:hover{
+  &:hover{
     background-color: transparent;
     opacity: 0.6;
+  }
+  @include break(sm) {
+    height: 100px;
   }
 }
 .home-btn--art{
   background-image: url("../images/home/art.svg");
+  background-size: 532px auto;
+  @include break(sm) {
+    background-size: 640px auto;
+  }
 }
 .home-btn--blog{
   background-image: url("../images/home/blog.svg");
+  background-size: 574px auto;
+  @include break(sm) {
+    background-size: 727px auto;
+  }
 }
 .home-btn--say-hello{
   background-image: url("../images/home/say-hello.svg");
-  margin-top: 20px;
+  margin-top: 15px;
+  background-size: 910px auto;
+  @include break(sm) {
+    background-size: 1200px auto;
+    margin-top: 30px;
+  }
 }

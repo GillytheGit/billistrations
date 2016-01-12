@@ -1,10 +1,10 @@
 ---
 layout: illustration
 type: "illustration"
-order : 1
 ref: solid
 header: Solid Snake man attack
 podcast : https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/210886950
+order : 8
 ---
 
 The oligarchy of Australia presides in a chalky pillar of enforced isolation. Acquiring accomplished avuncular assistance always proves difficult when attempting to complete a certain story of disaster, no one wants to help build the honesty buttons.

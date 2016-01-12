@@ -2,15 +2,4 @@
 layout: default
 ---
 
-<div class="row no-gutter">
-    {% assign sorted_pages = (site.pages | sort: 'order') %}
-    {% for page in sorted_pages %}
-    {% if page.type == "illustration" %}
-    <div class="col-xs-12 col-md-4">
-    	<a href="{{ page.url  }}"><div class="work-image" style="background-image: url(../images/work/{{ page.ref }}.jpg)"></div></a>
-    </div>
-    {% endif %}
-    {% endfor %}
-</div>
-
-
+{% include art-block.html %}

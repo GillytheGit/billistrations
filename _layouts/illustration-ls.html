@@ -3,17 +3,6 @@ layout: default
 ---
 <div class="container container-illustration">
 	<div class="row">
-		<!-- Top row back to work page and social share section -->
-		<div class="col-xs-12">
-			<a class="btn btn-default" href="{{site.url}}art.html">BACK</a>
-		</div>
-<!-- 		<div class="col-xs-12 col-md-6">
-	<div class="ls-share-container">
-		<div class="share-container">
-			<div class="addthis_native_toolbox"></div>
-		</div>
-	</div>
-</div> -->
 
 		<!-- illustrations image -->
 		<div class="col-xs-12 illustration-ls">
@@ -21,13 +10,13 @@ layout: default
 		</div>
 
 		<!-- Row for video podcast and text content -->
-		<div class="col-xs-12 col-md-6">
+		<div class="col-xs-12 col-md-6 col-md-offset-3">
 			<h1>
 				{{ page.header }}
 			</h1>
 			{{ content }}
 		</div>
-		<div class="col-xs-12 col-md-6 illustration-text">
+		<div class="col-xs-12 col-md-6 col-md-offset-3 illustration-text">
 			<div class="row">
 				<div class="col-xs-12 illustration-video">
 					{% if page.timelapse contains "youtube" %} 
@@ -60,8 +49,7 @@ layout: default
 		</div>
 	</div>
 </div>
-
-
+{% include art-block.html %}
 
 
 

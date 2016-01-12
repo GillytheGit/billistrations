@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="container blog">
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+            {% include post-detail.html %}
+        </div>
+        <div class="col-xs-12 col-md-9">
+            {% for post in site.posts limit:3 %}
+            <a href="{{ post.url }}"><h1>{{ post.title }}</h1>
+            <p >{{ post.date | date: "%b %-d, %Y" }}</p>
+            <article class="blog-posts">
+                {{ post.content | strip_html | truncatewords:75 }}
+            </article>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>      
