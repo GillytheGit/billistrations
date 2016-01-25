@@ -4,7 +4,7 @@ type: "illustration"
 ref: egging
 header: The never egging story
 podcast : https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/199505007
-order : 6
+order : -5
 ---
 
 What? Did I miss it? Oh great it’s easter humans. The always returning Zombie Jesus, lives in the moment, the always moment. So it doesn’t matter when this is received, time is an eggularcler flat hierachy. Every year the same moment, every year the same Zombie. It was earth all along.
