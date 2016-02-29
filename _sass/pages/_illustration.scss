@@ -11,7 +11,7 @@
 }
 
 .illustration-text{
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-bottom: 20px;
 }
 
@@ -47,12 +47,7 @@
 		height: 315px;
 	}
 }
-.img-button-cover--podcast{
-	height: 168px;
-	@include break(md){
-		height: 147px;
-	}
-}
+
 
 
 .illustration-content--none{
