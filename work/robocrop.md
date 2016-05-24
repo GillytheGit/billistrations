@@ -4,7 +4,7 @@ type: "illustration"
 ref: robocrop
 header: Robocrop
 timelapse : https://www.youtube.com/embed/56ryE26Leuc
-podcast : https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/67181594
+podcast : https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/250815527
 order : -17
 ---
 

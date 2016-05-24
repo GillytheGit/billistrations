@@ -4,8 +4,14 @@ type: "illustration"
 ref: unicornasaurus
 header: Unicornasaurus
 timelapse : 
-podcast : 
+podcast : https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/252133504
 order : -11
 ---
 
-Another non-functioning and upsetting representation of the speed and haste of the persistently pervasive postmodern portmanteau predicament. These are a lot of the things I love congealed into a stressful illustration, even though I enjoyed creating this piece, it looks slightly broken and upsetting, or you know… it could just be very late and I’m tired and it’s just a blue unicorn-asaurus robot thing with beams coming out of its eyes.
+
+
+This dinosaur is lost and stressed in a city looking for its conterpart, companion, and\or soul mate. Listen to the podcast to find out more about everything. My guest Firdi Billimoria and I discuss this in greater depth, listen via the embedded soundcloud link below. Tis below the image so tis.
+
+
+"Another non-functioning and upsetting representation of the speed and haste of the persistently pervasive postmodern portmanteau predicament." - Written as part of a proposal proposed for a bathroom wall somewhere in Bogata.
+
