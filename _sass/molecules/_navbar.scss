@@ -1,52 +1,52 @@
-.header-logo{
-  float: left;
+.sidebar-outer {
+  position: relative;
 }
-.header-navbar {
-  text-align: left;
-  float: right;
-  border: 0px;
-  padding: 0px 0px 20px;
-  background: $black--80;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 81px -16px 0px;
-  z-index: 200;
-  font-size: 23px;
+.fixed {
+  position: fixed;
+  padding-top: 22px;
+  padding-right: 22px; 
+}
+.sidebar-inner{
+  padding-top: 10px;
+  padding-right: 10px;
+  @include break(md){
+    position: fixed ;
+    padding-top: 22px;
+    padding-right: 22px;
+  }
+}
+.logo{
+
+}
+.logo-center{
+  margin: 0px auto;
+  display: block;
+  width: 300px;
   @include break(sm){
     width: auto;
-    padding: 19px 0px 0px;
-    position: relative;
-    margin: 0px;
-    background: transparent;
-  }
-  a {
-    float: left;
-    text-align: center;
-    padding: 10px 20px;
-    width: 100%;
-    @include break(sm) {
-      float: none;
-      text-align: right;
-      width: auto;
-      border-radius: 8px;
-    }
-    &:hover{
-      text-decoration: none;
-      color: $grey;
-      background: $black;
-    }    
-    &:target{
-      background: $blue-dark;
-    }
   }
 }
-.main-navigation {
-  background: transparent;
-  border: 0px;
-  padding: 19px 0px 0px;
-  a {
-    color: $white;
-    font-size: 16px;
-  }
+.social-links {
+  display: table;
+  width: 320px;
+  margin: 28px auto;
+   @include break(sm){
+      width: 100%;
+   }
 }
+.social-links a {
+  display: table-cell;
+  text-align: center;
+  width: 20%;
+}
+.social-links img {
+  width: 100%;
+  max-width: 29px;
+}
+.latest-podcast{
+  margin-bottom: 28px;
+}
+
+
+
+
