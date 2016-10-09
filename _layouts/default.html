@@ -4,24 +4,97 @@
 {% include head.html %}
 
 <body>
-	
-{% include header.html %}
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
-{{ content }}
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-sm-3 col-sm-push-9 col-md-3 col-md-push-9 col-lg-2 col-lg-push-10 sidebar-outer">
+				<div class="sidebar-inner">
+					<!-- Main fixed control -->
+					<div class="logo">
+						<div class="logo-center">
+							<img class="img-responsive" src="images/logo.svg" alt="">
+						</div>
+					</div>
+					<div class="social-links">
+						<a target="_blank" href="https://www.facebook.com/Billistrations/"><img src="images/social/post-facebook.svg" alt="facebook"></a>
+						<a target="_blank" href="https://www.instagram.com/billistrations/"><img src="images/social/post-instagram.svg" alt="instagram"></a>
+						<a target="_blank" href="https://au.pinterest.com/billistrations/"><img src="images/social/post-pinterest.svg" alt="pinterest"></a>
+						<a target="_blank" href="http://billistrations.tumblr.com/"><img src="images/social/post-tumblr.svg" alt="tumblr"></a>
+						<a target="_blank" href="https://twitter.com/billistrations"><img src="images/social/post-twitter.svg" alt="twitter"></a>
+					</div>
+
+					<div class="latest-podcast">
+						<p>Latest Podcast</p>
+						<div class="soundcloud-container">
+							<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268133662&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+						</div>
+						<a target="_blank" href="https://soundcloud.com/billistrations/tracks">view more</a>
+					</div>
+					<div class="sign-up">
+						<p>Want to be notified of when the next podcast is up? </p>
+
+						<p>Sign up! Why not? </p>
 
 
+						<!-- Begin MailChimp Signup Form -->
+						<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+						<style type="text/css">
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                    	<form action="//billistrations.us6.list-manage.com/subscribe/post?u=83202c4fed42f95784a8af901&amp;id=e9461eba6c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    		<div id="mc_embed_signup_scroll">
+                    			<div class="mc-field-group">
+                    				<label for="mce-EMAIL">Email
+                    				</label>
+                    				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    			</div>
+                    			<div id="mce-responses" class="clear">
+                    				<div class="response" id="mce-error-response" style="display:none"></div>
+                    				<div class="response" id="mce-success-response" style="display:none"></div>
+                    			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_83202c4fed42f95784a8af901_e9461eba6c" tabindex="-1" value=""></div>
+                    			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    		</div>
+                    	</form>
+                    </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-9 col-sm-pull-3 col-md-9 col-md-pull-3 col-lg-10 col-lg-pull-2">
+        	<div class="row no-gutter">
+
+        		{{content}}
+
+        	</div>
+        </div>
+    </div>
 </div>
+
 <script src="{{site.url}}vendor/js/jquery.min.js"></script>
 <script src="{{site.url}}vendor/js/bootstrap.min.js"></script>
 <script src="{{site.url}}js/init.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-27203757-1', 'auto');
-  ga('send', 'pageview');
+ga('create', 'UA-27203757-1', 'auto');
+ga('send', 'pageview');
 
 </script>
 </body>

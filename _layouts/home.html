@@ -1,50 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
 
-{% include head.html %}
 
-<body>
-	<div id="overlay"></div>
-	<div id="home-video" class="container-fuild">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-md-6 col-md-offset-3">
-					<div class="home-content">
-						<p>I am Billy <br/>I do Illustrations</p>
-					</div>
-					<a class="header__logo header__logo--home" href="{{ site.url }}"></a>
-					<div class="row">
-						<div class="col-xs-6 col-padding-right-half"><a href="blog.html" class="btn btn--home home-btn--blog"></a></div>
-						<div class="col-xs-6 col-padding-left-half"><a href="art.html" class="btn btn--home home-btn--art"></a></div>
-						<div class="col-xs-12"><a href="say-hello.html" class="btn btn--home home-btn--say-hello"></a></div>
-					</div>
-					<div class="social-media social-media--home">
-						<a target="_blank" href="https://www.facebook.com/Billistrations/" class="social-media__link social-media__link--facebook"></a>
-						<a target="_blank" href="https://twitter.com/billistrations" class="social-media__link social-media__link--twitter"></a>
-						<a target="_blank" href="https://www.youtube.com/user/spuddsorathalaigh" class="social-media__link social-media__link--youtube"></a>
-						<a target="_blank" href="https://www.instagram.com/billistrations/" class="social-media__link social-media__link--instagram"></a>
-					</div>
-					<div class="home-content">
-						<p>Sign up to my newsletter<br/><a target="_blank" href="say-hello.html">For no reason at all</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-<script src="{{site.url}}vendor/js/jquery.min.js"></script>
-<script src="{{site.url}}vendor/js/bootstrap.min.js"></script>
-<script src="{{site.url}}js/jquery.tubular.1.0.js"></script>
-<script src="{{site.url}}js/init.js"></script>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="col-xs-12 col-md-8">
+	<img class="img-responsive home-img" src="../images/work/unicornasaurus.jpg" alt="{{ post.ref }}">
+</div>
+<div class="col-xs-12 col-md-4">
+	<article>
+		<div class="fb-like" data-href="https://www.facebook.com/Billistrations/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		Welcome to my internet place. WHy have this aswell as all the other social things? Well because of reasons that's why. Riddle me this you fiddly piss, how does it, when all of everything isn't, still be always doing? Internets forever my gracious eyewobblies.
+	</article>
+</div>
 
-ga('create', 'UA-27203757-1', 'auto');
-ga('send', 'pageview');
 
-</script>
-</body>
-</html>
+
+
+{% for post in site.posts %}
+<div class="col-xs-12 col-md-8">
+	<img class="img-responsive home-img" src="../images/work/{{ post.ref }}.jpg" alt="{{ post.ref }}">
+</div>
+<div class="col-xs-12 col-md-4">
+	<article>
+		<div class="fb-like" data-href="https://www.facebook.com/Billistrations/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		{{ post.content }}
+		<a href="#" target="_blank">Artists Name</a><br>
+		<a href="#" target="_blank">Photos of Event</a><br>
+	</article>
+</div>
+{% endfor %}
+

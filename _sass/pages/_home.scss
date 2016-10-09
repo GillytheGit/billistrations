@@ -1,39 +1,15 @@
-#overlay{
-	background-color:rgba(0,0,255,0.5);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	z-index: 10;
-}
-
-.home-content{
-	color: $white;
-	text-align: center;
-	margin-top: 20px;
-}
-
-.header__logo--home{
+.home-img{
+	height: auto;
 	width: 100%;
-	height: 80px;
-	margin: 20px auto;
 	display: block;
-	float: none;
-	@include break(sm) {
-		height: 190px;
+	margin-bottom: 28px;
+	padding-right: 0px;
+	@include break(sm){
+		padding-right: 20px;
 	}
 }
-
-.col-padding-left-half{
-	padding-left: 7px;
-	@include break(sm) {
-		padding-left: 15px;
-	}
-}
-.col-padding-right-half{
-	padding-right: 7px;
-	@include break(sm) {
-		padding-right: 15px;
-	}
+.soundcloud-container{
+	background: $grey--light ;
+	padding: 20px 20px 14px 20px;
+    margin: 0 0 10px 0;
 }
